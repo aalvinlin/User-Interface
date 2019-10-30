@@ -49,12 +49,12 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
-}
+	box-sizing: border-box;
+	}
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,143 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	text-align: center;
+}
+
+header nav {
+	
+	width: 70%;
+	
+	text-align: left;
+
+	display: inline-block;
+
+	vertical-align: top;
+
+}
+
+header nav a {
+	text-align: center;
+
+	display: inline-block;
+	
+	width: 80px;
+	font-size: 12px;
+	line-height: 32px;
+
+	text-decoration: none;
+
+	color: #999999;
+}
+
+header nav a:hover, header nav a:active {
+	text-decoration: none;
+
+	color: #333333;
+	background-color: #CCCCCC;
+
+}
+
+
+#intro {
+	text-align: center;
+	vertical-align: top;
+}
+
+#intro div {
+	display: inline-block;
+
+	width: 45%;
+	height: 380px;
+}
+
+#intro h1 {
+	font-size: 72px;
+
+	margin-top: 50px;
+}
+
+#intro a {
+	display: inline-block;
+	
+	width: 150px;
+	line-height: 32px;
+
+	border: 1px solid black;
+
+	text-decoration: none;
+
+	color: black;
+}
+
+/* #intro a:link, a:visited {
+
+} */
+
+#intro a:hover, a:active {
+	background-color: #CCCCCC;	
+}
+
+#intro img {
+	width: 45%;
+	vertical-align: top;
+}
+
+#intro #lightbulb {
+	width: 200px;
+	border-radius: 20px;
+	margin-left: 100px;
+}
+
+h2, p {
+	text-align: left;
+	margin: 20px auto;
+}
+
+p {
+	font-size: 14px;
+}
+
+header, section, footer {
+	width: 90%;
+	margin: 50px auto;
+}
+
+#description {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: left;
+}
+
+
+.two_across {
+	width: 45%;
+	margin-right: 2%;
+}
+
+.three_across {
+	width: 30%;
+	margin-right: 2%;
+}
+
+#description div {
+	display: inline-block;
+}
+
+#description img {
+	width: 100%;
+	margin: 20px auto;
+}
+
+footer {
+	text-align: left;
+	font-family: Kodchasan;
+
+}
+
+#copyright {
+	font-size: 10px;
+	text-align: center;
+}

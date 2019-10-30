@@ -148,6 +148,11 @@ header nav a:hover, header nav a:active {
 	vertical-align: top;
 }
 
+#intro #lightbulb {
+	width: 200px;
+	border-radius: 20px;
+	margin-left: 100px;
+}
 
 h2, p {
 	text-align: left;
@@ -191,13 +196,11 @@ header, section, footer {
 
 footer {
 	text-align: left;
+	font-family: Kodchasan;
+
 }
 
 #copyright {
 	font-size: 10px;
 	text-align: center;
-}
-
-* {
-	/* border: 1px solid gold !important; */
 }
